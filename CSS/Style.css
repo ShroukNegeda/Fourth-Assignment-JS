@@ -136,3 +136,23 @@ a:hover {
     text-align: center;
     min-width: 700px;
 }
+
+textarea {
+    width: 100%;
+    min-height: 120px;
+    background-color: transparent;
+    border: 1px solid #17a2b8;
+    border-radius: 4px;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    resize: vertical;
+}
+
+.error {
+  display: block;
+  color: #ff6b6b;
+  font-size: 13px;
+  margin-top: 3px;
+  margin-bottom: 5px;
+}
